@@ -73,8 +73,16 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="Phidget21.NET">
+      <HintPath>Assets\Phidgets\Phidget21.NET.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Phidgets\CameraSlider.cs" />
+    <Compile Include="Assets\Phidgets\Demo.cs" />
+    <Compile Include="Assets\Phidgets\PhidgetInterfaceKit.cs" />
+    <Compile Include="Assets\Phidgets\forceSensor.cs" />
+    <Compile Include="Assets\Phidgets\toss.cs" />
     <Compile Include="Assets\Scripts\HUD\HUDUpdater.cs" />
     <Compile Include="Assets\Scripts\Menu\MenuController.cs" />
     <Compile Include="Assets\Scripts\Menu\MenuItem.cs" />

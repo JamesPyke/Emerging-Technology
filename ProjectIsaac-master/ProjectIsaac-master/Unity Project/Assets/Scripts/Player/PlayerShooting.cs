@@ -9,14 +9,20 @@ public class PlayerShooting : MonoBehaviour {
 
 	public Camera Camera;
 	public GameObject BulletHole;
+    private PhidgetInterfaceKit phidgetInterfaceKit;
 
-	public List<Gun> Guns = new List<Gun>();
+    public List<Gun> Guns = new List<Gun>();
 
 	int Gun = 0;
 
 	RaycastHit Hit;
 
-	void Update() {
+    void Start()
+    {
+        phidgetInterfaceKit = PhidgetInterfaceKit.getInstance();
+    }
+
+    void Update() {
 
 		if(Input.GetKeyDown(KeyCode.F)) {
 			foreach(Gun _Gun in Guns) {
@@ -35,7 +41,12 @@ public class PlayerShooting : MonoBehaviour {
 			}
 		}
 
-		if(Input.GetKeyDown(KeyCode.R)) {
+        if(phidgetInterfaceKit.getValue(2) >= 500)
+        {
+            Guns[Gun].Reload();
+        }
+
+        if(Input.GetKeyDown(KeyCode.R)) {
 			Guns [Gun].Reload();
 		}
 
