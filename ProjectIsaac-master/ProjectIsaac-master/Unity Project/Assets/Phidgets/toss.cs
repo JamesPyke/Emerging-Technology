@@ -46,6 +46,5 @@ public class toss : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         Destroy(gameObject);
-
     }
 }

@@ -19,7 +19,7 @@ public abstract class Gun : MonoBehaviour {
 				if(Physics.Raycast(_Ray.origin, _Ray.direction, out Hit, Range)) {
 					Spawn_Bullet_Hole(Hit);
 					Apply_Effect(Hit);
-					Debug.Log (Name + " hit object " + Hit.collider.gameObject.name + " at distance " + Hit.distance);
+					//Debug.Log (Name + " hit object " + Hit.collider.gameObject.name + " at distance " + Hit.distance);
 				}
 			}
 
