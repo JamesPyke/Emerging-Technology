@@ -1,0 +1,17 @@
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/Assembly-CSharp.dll
+/home/ben/ProjectIsaac/Unity Project/obj/Debug/Assembly-CSharp.dll
+/home/ben/ProjectIsaac/Unity Project/obj/Debug/Assembly-CSharp.dll.mdb
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/UnityEngine.dll
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/UnityEditor.dll
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/UnityEngine.UI.dll
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/UnityEngine.Networking.dll
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/Unity.DataContract.dll
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/Mono.Cecil.dll
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/Unity.SerializationLogic.dll
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/Unity.UNetWeaver.dll
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/Unity.CecilTools.dll
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/home/ben/ProjectIsaac/Unity Project/Temp/bin/Debug/Mono.Cecil.Mdb.dll
